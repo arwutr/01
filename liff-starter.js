@@ -6,14 +6,14 @@ window.onload = function (e) {
 
 function getP(){
     var tipe = getParameterByName('type')
-     if (tipe = 'HELLO') {
+     if (tipe = 'sticker') {
 // sendMessages call
     document.getElementById('HELLO').addEventListener('click', function () {
         liff.sendMessages([{
-          type: "HELLO",
+          type: "sticker",
           altText: "Sticker",
           template: {
-             type: "HELLO",
+             type: "sticker",
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png",
                  action: {
                      type: "uri",
