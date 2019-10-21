@@ -1,8 +1,12 @@
 window.onload = function (e) {
-    liff.init(function (data) {
-        initializeApp(data);
+    liff.init(function () {
+        getP();
     });
 };
+
+function getP(){
+    var tipe = getParameterByName('type')
+    if (!tipe) {
 // sendMessages call
     document.getElementById('HELLO').addEventListener('click', function () {
         liff.sendMessages([{
