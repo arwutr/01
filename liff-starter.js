@@ -14,7 +14,6 @@ function getP(){
           altText: "Sticker",
           template: {
              type: "HELLO",
-             columns: [{
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png",
                  action: {
                      type: "uri",
