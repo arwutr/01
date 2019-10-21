@@ -64,7 +64,6 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
-        });
     });
 
     // sendMessages call4
@@ -83,7 +82,6 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
-        });
     });
 
     // sendMessages call5
