@@ -23,3 +23,23 @@ window.onload = function (e) {
         });
     }
 }
+                                                      
+// sendMessages call
+    document.getElementById('ดีจ้า').addEventListener('click', function () {
+        liff.sendMessages([{
+          type: "sticker",
+          altText: "Sticker",
+          template: {
+             type: "image_carousel",
+             columns: [{
+                 imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png",
+                 action: {
+                     type: "uri",
+                     uri: "line://shop/sticker/detail/13561"}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    }
+}
