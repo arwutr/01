@@ -29,6 +29,8 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
+    });
+}
 
     // sendMessages call2
     document.getElementById('sendmessagebutton2').addEventListener('click', function () {
@@ -47,6 +49,8 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
+    });
+}
 
     // sendMessages call3
     document.getElementById('sendmessagebutton3').addEventListener('click', function () {
@@ -64,7 +68,9 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
+        });
     });
+}
 
     // sendMessages call4
     document.getElementById('sendmessagebutton4').addEventListener('click', function () {
@@ -82,7 +88,9 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
+        });
     });
+}
 
     // sendMessages call5
     document.getElementById('sendmessagebutton5').addEventListener('click', function () {
