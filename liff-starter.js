@@ -6,7 +6,7 @@ window.onload = function (e) {
 
 function getP(){
     var tipe = getParameterByName('type')
-     if (tipe = 'sticker') {
+    if (!tipe) {
 // sendMessages call
     document.getElementById('HELLO').addEventListener('click', function () {
         liff.sendMessages([{
