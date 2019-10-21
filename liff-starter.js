@@ -28,7 +28,6 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
-        });
     });
 
     // closeWindow call
@@ -65,7 +64,6 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
-        });
     });
 
     // get access token
@@ -102,5 +100,6 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
+        });        
     }
 }
