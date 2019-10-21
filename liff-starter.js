@@ -5,7 +5,7 @@ window.onload = function (e) {
 };
 
 // sendMessages call
-    document.getElementById('HELLO').addEventListener('click', function () {
+    document.getElementById('Hello').addEventListener('click', function () {
         liff.sendMessages([{
           type: "template",
           altText: "Sticker",
