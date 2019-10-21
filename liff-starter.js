@@ -7,7 +7,7 @@ window.onload = function (e) {
 // sendMessages call
     document.getElementById('Hello').addEventListener('click', function () {
         liff.sendMessages([{
-          type: "template",
+          type: "sticker",
           altText: "Sticker",
           template: {
              type: "image_carousel",
