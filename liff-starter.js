@@ -7,7 +7,7 @@ window.onload = function (e) {
 // sendMessages call
     document.getElementById('HELLO').addEventListener('click', function () {
         liff.sendMessages([{
-            type: "img",
+            type: "sticker",
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png",
                  action: {
                      type: "uri",
