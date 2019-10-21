@@ -10,7 +10,7 @@ function getP(){
 // sendMessages call
     document.getElementById('HELLO').addEventListener('click', function () {
         liff.sendMessages([{
-          type: "template",
+          type: "HELLO",
           altText: "Sticker",
           template: {
              type: "image_carousel",
