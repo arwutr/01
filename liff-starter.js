@@ -100,6 +100,7 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
-        });        
+        });
+      });
     }
 }
