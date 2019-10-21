@@ -32,7 +32,7 @@ window.onload = function (e) {
           template: {
              type: "image_carousel",
              columns: [{
-                 imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png",
+                 imageUrl: "line://app/1583925164-dpP55jjN?type=sticker&stk=pupup&sid=159360750&pkg=13561",
                  action: {
                      type: "uri",
                      uri: "line://shop/sticker/detail/13561"}}
