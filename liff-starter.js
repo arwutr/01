@@ -12,19 +12,81 @@ function initializeApp(data) {
     document.getElementById('roomidfield').textContent = data.context.roomId;
     document.getElementById('groupidfield').textContent = data.context.groupId;
 
-    // openWindow call
-    document.getElementById('openwindowbutton').addEventListener('click', function () {
-        liff.openWindow({
-            url: 'https://line.me'
+    // sendMessages call1
+    document.getElementById('sendmessagebutton1').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360754/IOS/sticker_popup.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/13561'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+
+    // sendMessages call2
+    document.getElementById('sendmessagebutton2').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360753/IOS/sticker_popup.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/13561'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+
+    // sendMessages call3
+    document.getElementById('sendmessagebutton3').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360752/IOS/sticker_popup.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/13561'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
         });
     });
 
-    // closeWindow call
-    document.getElementById('closewindowbutton').addEventListener('click', function () {
-        liff.closeWindow();
+    // sendMessages call4
+    document.getElementById('sendmessagebutton4').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360751/IOS/sticker_popup.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/13561'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
     });
 
-    // sendMessages call
+    // sendMessages call5
     document.getElementById('sendmessagebutton5').addEventListener('click', function () {
         liff.sendMessages([{
             type: 'template',
@@ -40,35 +102,6 @@ function initializeApp(data) {
                         }
         }]).then(function () {
             liff.closeWindow();
-        });
-    });
-
-    // get access token
-    document.getElementById('getaccesstoken').addEventListener('click', function () {
-        const accessToken = liff.getAccessToken();
-        document.getElementById('accesstokenfield').textContent = accessToken;
-        toggleAccessToken();
-    });
-
-    // get profile call
-    document.getElementById('getprofilebutton').addEventListener('click', function () {
-        liff.getProfile().then(function (profile) {
-            document.getElementById('useridprofilefield').textContent = profile.userId;
-            document.getElementById('displaynamefield').textContent = profile.displayName;
-
-            const profilePictureDiv = document.getElementById('profilepicturediv');
-            if (profilePictureDiv.firstElementChild) {
-                profilePictureDiv.removeChild(profilePictureDiv.firstElementChild);
-            }
-            const img = document.createElement('img');
-            img.src = profile.pictureUrl;
-            img.alt = "Profile Picture";
-            profilePictureDiv.appendChild(img);
-
-            document.getElementById('statusmessagefield').textContent = profile.statusMessage;
-            toggleProfileData();
-        }).catch(function (error) {
-            window.alert("Error getting profile: " + error);
         });
     });
 }
