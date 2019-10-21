@@ -27,16 +27,19 @@ function initializeApp(data) {
     // sendMessages call
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
         liff.sendMessages([{
-            type: 'text',
-            text: "You've successfully sent a message! Hooray!"
-        }, {
-            type: 'sticker',
-            packageId: '1274372',
-            stickerId: '11122055'
+            type: "template",
+          altText: "Sticker",
+          template: {
+             type: "image_carousel",
+             columns: [{
+                 imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png",
+                 action: {
+                     type: "uri",
+                     uri: "line://shop/sticker/detail/13561"}}
+                          ]
+                        }
         }]).then(function () {
-            window.alert("Message sent");
-        }).catch(function (error) {
-            window.alert("Error sending message: " + error);
+            liff.closeWindow();
         });
     });
 
