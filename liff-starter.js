@@ -100,7 +100,7 @@ function initializeApp(data) {
         });
     });
     
-          // sendMessages call5
+    // sendMessages call5
     document.getElementById('sendmessagebutton5').addEventListener('click', function () {
         liff.sendMessages([{
           type: 'template',
@@ -119,7 +119,7 @@ function initializeApp(data) {
         });
     });
     
-          // sendMessages call6
+    // sendMessages call6
     document.getElementById('sendmessagebutton6').addEventListener('click', function () {
         liff.sendMessages([{
           type: 'template',
@@ -138,8 +138,8 @@ function initializeApp(data) {
         });
     });  
     
-          // sendMessages call7
-    document.getElementById('sendmessagebutton2').addEventListener('click', function () {
+    // sendMessages call7
+    document.getElementById('sendmessagebutton7').addEventListener('click', function () {
         liff.sendMessages([{
           type: 'template',
           altText: 'Sticker',
