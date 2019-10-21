@@ -13,7 +13,7 @@ function getP(){
           type: "HELLO",
           altText: "Sticker",
           template: {
-             type: "image_carousel",
+             type: "HELLO",
              columns: [{
                  imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png",
                  action: {
