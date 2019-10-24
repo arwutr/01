@@ -24,8 +24,8 @@ function initializeApp(data) {
         liff.closeWindow();
     });
 
-    // sendMessages call
-    document.getElementById('sendmessagebutton').addEventListener('click', function () {
+    // sendMessages1
+    document.getElementById('sendmessagebutton1').addEventListener('click', function () {
         liff.sendMessages([{
             type: 'template',
           altText: 'Sticker',
@@ -43,10 +43,10 @@ function initializeApp(data) {
         });
     });
 
-      // sendMessages call2
+    // sendMessages2
     document.getElementById('sendmessagebutton2').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -60,12 +60,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
  
-     // sendMessages call3
+    // sendMessages3
     document.getElementById('sendmessagebutton3').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -81,10 +81,10 @@ function initializeApp(data) {
         });
     });
    
-    // sendMessages call4
+    // sendMessages4
     document.getElementById('sendmessagebutton4').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -100,10 +100,10 @@ function initializeApp(data) {
         });
     });
     
-    // sendMessages call5
+    // sendMessages5
     document.getElementById('sendmessagebutton5').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -119,10 +119,10 @@ function initializeApp(data) {
         });
     });
     
-    // sendMessages call6
+    // sendMessages6
     document.getElementById('sendmessagebutton6').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -136,12 +136,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
     
-    // sendMessages call7
+    // sendMessages7
     document.getElementById('sendmessagebutton7').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -155,12 +155,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
 
-    // sendMessages call8
+    // sendMessages8
     document.getElementById('sendmessagebutton8').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -176,10 +176,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call9
+    // sendMessages9
     document.getElementById('sendmessagebutton9').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -193,12 +193,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
 
-    // sendMessages call10
+    // sendMessages10
     document.getElementById('sendmessagebutton10').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -212,12 +212,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
 
-    // sendMessages call11
+    // sendMessages11
     document.getElementById('sendmessagebutton11').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -231,12 +231,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
 
-    // sendMessages call12
+    // sendMessages12
     document.getElementById('sendmessagebutton12').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -250,12 +250,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
 
-    // sendMessages call13
+    // sendMessages13
     document.getElementById('sendmessagebutton13').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -269,12 +269,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
 
-    // sendMessages call14
+    // sendMessages14
     document.getElementById('sendmessagebutton14').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -288,12 +288,12 @@ function initializeApp(data) {
         }]).then(function () {
             liff.closeWindow();
         });
-    });  
+    });
 
-    // sendMessages call15
+    // sendMessages15
     document.getElementById('sendmessagebutton15').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -309,10 +309,10 @@ function initializeApp(data) {
         });
     });
     
-    // sendMessages call16
+    // sendMessages16
     document.getElementById('sendmessagebutton16').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -328,10 +328,10 @@ function initializeApp(data) {
         });
     });
     
-    // sendMessages call17
+    // sendMessages17
     document.getElementById('sendmessagebutton17').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -347,10 +347,10 @@ function initializeApp(data) {
         });
     });
     
-    // sendMessages call18
+    // sendMessages18
     document.getElementById('sendmessagebutton18').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -366,10 +366,10 @@ function initializeApp(data) {
         });
     });
     
-    // sendMessages call19
+    // sendMessages19
     document.getElementById('sendmessagebutton19').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -385,10 +385,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call20
+    // sendMessages20
     document.getElementById('sendmessagebutton20').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -404,10 +404,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call21
+    // sendMessages21
     document.getElementById('sendmessagebutton21').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -423,10 +423,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call22
+    // sendMessages22
     document.getElementById('sendmessagebutton22').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -442,10 +442,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call23
+    // sendMessages23
     document.getElementById('sendmessagebutton23').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -461,10 +461,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call24
+    // sendMessages24
     document.getElementById('sendmessagebutton24').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -480,10 +480,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call25
+    // sendMessages25
     document.getElementById('sendmessagebutton25').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -499,10 +499,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call26
+    // sendMessages26
     document.getElementById('sendmessagebutton26').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -518,10 +518,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call27
+    // sendMessages27
     document.getElementById('sendmessagebutton27').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -537,10 +537,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call28
+    // sendMessages28
     document.getElementById('sendmessagebutton28').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -556,10 +556,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call29
+    // sendMessages29
     document.getElementById('sendmessagebutton29').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -575,10 +575,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call30
+    // sendMessages30
     document.getElementById('sendmessagebutton30').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -594,10 +594,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call31
+    // sendMessages31
     document.getElementById('sendmessagebutton31').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -613,10 +613,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call32
+    // sendMessages32
     document.getElementById('sendmessagebutton32').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -632,10 +632,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call33
+    // sendMessages33
     document.getElementById('sendmessagebutton33').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -651,10 +651,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call34
+    // sendMessages34
     document.getElementById('sendmessagebutton34').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -670,10 +670,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call35
+    // sendMessages35
     document.getElementById('sendmessagebutton35').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -689,10 +689,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call36
+    // sendMessages36
     document.getElementById('sendmessagebutton36').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -708,10 +708,10 @@ function initializeApp(data) {
         });
     });
 
-    // sendMessages call37
+    // sendMessages37
     document.getElementById('sendmessagebutton37').addEventListener('click', function () {
         liff.sendMessages([{
-          type: 'template',
+            type: 'template',
           altText: 'Sticker',
           template: {
              type: 'image_carousel',
@@ -726,6 +726,582 @@ function initializeApp(data) {
             liff.closeWindow();
         });
     });
+
+    // sendMessages38
+    document.getElementById('sendmessagebutton38').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697590/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages39
+    document.getElementById('sendmessagebutton39').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697591/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages40
+    document.getElementById('sendmessagebutton40').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697592/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages41
+    document.getElementById('sendmessagebutton41').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697593/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages42
+    document.getElementById('sendmessagebutton42').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697594/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages43
+    document.getElementById('sendmessagebutton43').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697595/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages44
+    document.getElementById('sendmessagebutton44').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697596/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages45
+    document.getElementById('sendmessagebutton45').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697597/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages46
+    document.getElementById('sendmessagebutton46').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697598/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages47
+    document.getElementById('sendmessagebutton47').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697599/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages48
+    document.getElementById('sendmessagebutton48').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697600/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages49
+    document.getElementById('sendmessagebutton49').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697601/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages50
+    document.getElementById('sendmessagebutton50').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697602/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages51
+    document.getElementById('sendmessagebutton51').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697603/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages52
+    document.getElementById('sendmessagebutton52').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697604/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages53
+    document.getElementById('sendmessagebutton53').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697605/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages54
+    document.getElementById('sendmessagebutton54').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697606/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages55
+    document.getElementById('sendmessagebutton55').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697607/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages56
+    document.getElementById('sendmessagebutton56').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697608/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages57
+    document.getElementById('sendmessagebutton57').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697609/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages58
+    document.getElementById('sendmessagebutton58').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697610/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages59
+    document.getElementById('sendmessagebutton59').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697611/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages60
+    document.getElementById('sendmessagebutton60').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697612/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+    // sendMessages61
+    document.getElementById('sendmessagebutton61').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/248697613/IOS/sticker_animation@2x.png',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // get access token
     document.getElementById('getaccesstoken').addEventListener('click', function () {
