@@ -1203,6 +1203,24 @@ function initializeApp(data) {
         });
     });
 
+    // sendMessages63
+    document.getElementById('sendmessagebutton63').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://www.img.in.th/images/66b3410b0a1e8fff1a70e15731c9a887.gif',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/967'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
 
 
 
