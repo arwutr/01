@@ -1192,7 +1192,7 @@ function initializeApp(data) {
           template: {
              type: 'image_carousel',
              columns: [{
-                 imageUrl: 'https://photos.google.com/share/AF1QipMWS1q1sWsS9Bpw0DZxfDjp0d8ty9hqfzFNRvdLnP6DDIWbJfbe-uDYF-nzSnbKVA/photo/AF1QipOblJzHI4iCPWpcvgspECS9BrTyozDhRO8aE4k_?key=clhUdXc5TDY1bkpnc0l5aUdzdVFyZXpwZ2ktaUNB',
+                 imageUrl: 'https://www.dropbox.com/s/cn0ujsioobbqluy/TEST1.png',
                  action: {
                      type: 'uri',
                      uri: 'line://shop/sticker/detail/15499'}}
