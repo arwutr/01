@@ -1184,7 +1184,24 @@ function initializeApp(data) {
     });
 
 
-
+    // sendMessages62
+    document.getElementById('sendmessagebutton61').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://photos.google.com/share/AF1QipMWS1q1sWsS9Bpw0DZxfDjp0d8ty9hqfzFNRvdLnP6DDIWbJfbe-uDYF-nzSnbKVA/photo/AF1QipOblJzHI4iCPWpcvgspECS9BrTyozDhRO8aE4k_?key=clhUdXc5TDY1bkpnc0l5aUdzdVFyZXpwZ2ktaUNB',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/15499'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
 
 
 
