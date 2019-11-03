@@ -1192,7 +1192,7 @@ function initializeApp(data) {
           template: {
              type: 'image_carousel',
              columns: [{
-                 imageUrl: 'https://www.dropbox.com/s/cn0ujsioobbqluy/TEST1.png',
+                 imageUrl: 'https://www.img.in.th/images/710855fe704c6f7731f3d3bdb816da5d.png',
                  action: {
                      type: 'uri',
                      uri: 'line://shop/sticker/detail/15499'}}
