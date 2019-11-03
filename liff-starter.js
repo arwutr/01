@@ -1185,7 +1185,7 @@ function initializeApp(data) {
 
 
     // sendMessages62
-    document.getElementById('sendmessagebutton61').addEventListener('click', function () {
+    document.getElementById('sendmessagebutton62').addEventListener('click', function () {
         liff.sendMessages([{
             type: 'template',
           altText: 'Sticker',
