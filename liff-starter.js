@@ -1195,7 +1195,7 @@ function initializeApp(data) {
                  imageUrl: 'https://www.img.in.th/images/710855fe704c6f7731f3d3bdb816da5d.png',
                  action: {
                      type: 'uri',
-                     uri: 'line://shop/sticker/detail/15499'}}
+                     uri: 'line://shop/sticker/detail/999'}}
                           ]
                         }
         }]).then(function () {
