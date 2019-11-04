@@ -1222,7 +1222,44 @@ function initializeApp(data) {
         });
     });
 
-
+    // sendMessages64
+    document.getElementById('sendmessagebutton64').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://www.img.in.th/images/b1efb85d1041eeb064dc4bdded8577f8.gif',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/967'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+    
+        // sendMessages65
+    document.getElementById('sendmessagebutton65').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
+          template: {
+             type: 'image_carousel',
+             columns: [{
+                 imageUrl: 'https://www.img.in.th/images/483abbb31068cdd13e6552091a3d1f6f.gif',
+                 action: {
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/967'}}
+                          ]
+                        }
+        }]).then(function () {
+            liff.closeWindow();
+        });
+    });
+    
 
 
 
