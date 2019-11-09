@@ -1310,7 +1310,7 @@ function initializeApp(data) {
                  imageUrl: 'https://www.img.in.th/images/5860a3a269c5c2d82ccc29913ed39a4c.gif',
                  action: {
                      type: 'uri',
-                     uri: 'https://www.img.in.th'}}
+                     uri: 'https://line//app/1553266645-KJ5VVlE1'}}
                           ]
                         }
         }]).then(function () {
